@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv('/Users/neledauelsberg/Repos/intruduction_ml/sessions/wetter.csv')
+df = pd.read_csv('/Users/neledauelsberg/Repos/intruduction_ml/sessions/session1/wetter.csv')
 
 
 df['Datum'] = pd.to_datetime(df['Datum'])
